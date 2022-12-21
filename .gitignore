@@ -1,0 +1,11 @@
+
+*.dll
+*.json
+*.pdb
+*.exe
+*.props
+*.targets
+*.cache
+*.txt
+*.BuildWithSkipAnalyzers
+*.editorconfig

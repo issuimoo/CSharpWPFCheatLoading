@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
+    <RootNamespace>RTSS_WPF登录器</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Copyright>© 2022 遂沫</Copyright>
+    <PackageIcon>c_sharp_logo_2_127px.png</PackageIcon>
+    <ApplicationIcon>icons8_c_sharp_logo_2.ico</ApplicationIcon>
+    <SignAssembly>False</SignAssembly>
+    <PackAsTool>False</PackAsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="998bd3db74e04bfa99c5ff8c03c288b7.jpg" />
+    <None Remove="about_127px.png" />
+    <None Remove="account_127px.png" />
+    <None Remove="cancel_127px.png" />
+    <None Remove="ec43126fgy1gnnhxxmx49j20rs11zgox.jpg" />
+    <None Remove="eye_96px.png" />
+    <None Remove="home_127px.png" />
+    <None Remove="home_96px.png" />
+    <None Remove="Syringe_127px.png" />
+    <None Remove="wallhaven-3l9ody_3840x2160.png" />
+    <None Remove="图片资源\c++_127px.png" />
+    <None Remove="图片资源\c_sharp_logo_2_127px.png" />
+    <None Remove="图片资源\ec43126fgy1gnnhxxmx49j20rs11zgox.jpg" />
+    <None Remove="图片资源\wallhaven-7p3vy9_3840x2160.png" />
+    <None Remove="图片资源\wallhaven-7p3we9_7680x4320.png" />
+    <None Remove="图片资源\wallhaven-9d6g28_7680x4320.png" />
+    <None Remove="图片资源\wallhaven-gp8zoe_3840x2160.png" />
+    <None Remove="选项卡界面\c++_127px.png" />
+    <None Remove="选项卡界面\c_sharp_logo_2_127px.png" />
+    <None Remove="选项卡界面\ec43126fgy1gnnhxxmx49j20rs11zgox.jpg" />
+    <None Remove="选项卡界面\open_source_127px.png" />
+    <None Remove="选项卡界面\wallhaven-7p3vy9_3840x2160.png" />
+    <None Remove="选项卡界面\wallhaven-7p3we9_7680x4320.png" />
+    <None Remove="选项卡界面\wallhaven-9d6g28_7680x4320.png" />
+    <None Remove="选项卡界面\wallhaven-9d6zpx_6000x2570.png" />
+    <None Remove="选项卡界面\wallhaven-gp8zoe_3840x2160.png" />
+    <None Remove="选项卡界面\wallhaven-vqgzql_5788x3260.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="图片资源\wallhaven-3l9ody_3840x2160.png" />
+    <Resource Include="图片资源\eye_96px.png" />
+    <Resource Include="图片资源\998bd3db74e04bfa99c5ff8c03c288b7.jpg" />
+    <Resource Include="图片资源\about_127px.png" />
+    <Resource Include="图片资源\account_127px.png" />
+    <Resource Include="图片资源\c++_127px.png" />
+    <Resource Include="图片资源\cancel_127px.png" />
+    <Resource Include="图片资源\c_sharp_logo_2_127px.png" />
+    <Resource Include="图片资源\ec43126fgy1gnnhxxmx49j20rs11zgox.jpg" />
+    <Resource Include="图片资源\home_127px.png" />
+    <Resource Include="图片资源\Syringe_127px.png" />
+    <Resource Include="图片资源\open_source_127px.png" />
+    <Resource Include="图片资源\wallhaven-7p3vy9_3840x2160.png" />
+    <Resource Include="图片资源\wallhaven-7p3we9_7680x4320.png" />
+    <Resource Include="图片资源\wallhaven-9d6g28_7680x4320.png" />
+    <Resource Include="图片资源\wallhaven-gp8zoe_3840x2160.png" />
+    <Resource Include="图片资源\wallhaven-9d6zpx_6000x2570.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="图标.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>图标.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
